@@ -1,0 +1,15 @@
+.container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    background-color: #52006A;
+    color:#EDEDD0;
+    padding:1rem;
+    font-size: larger;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 10%;
+}
