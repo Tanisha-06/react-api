@@ -46,7 +46,7 @@ function App() {
       </section>
       <section className={classes.container}>
         {!isLoading &&  data.length >0 && <PersonalData data={data[0]} />}
-        {!isLoading && data.length===0 && <p>Found no data.</p>}
+        {!isLoading && data.length===0 && <p>Click on the Fetch Button.</p>}
         {isLoading && <p>Loading...</p>}
         {!isLoading && error && <p>{error}</p>}
       </section>
